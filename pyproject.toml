@@ -1,0 +1,17 @@
+[project]
+name = "day-2-ticket-validator"
+version = "0.1.0"
+description = "CSV service ticket validation using Pydantic"
+requires-python = ">=3.10"
+dependencies = [
+    "pydantic>=2.0"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0"
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

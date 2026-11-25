@@ -1,0 +1,5 @@
+ticket_id,customer_name,service_date,status
+101,Anushka,2026-11-24,open
+102,Divith,2026-11-23,closed
+103,Greeshma,2026-11-22,in_progress
+104,Rahul,2026-11-21,open
